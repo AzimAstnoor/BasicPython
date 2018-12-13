@@ -1,0 +1,11 @@
+r1 = r6 = r9 = float(input('Enter Resistance1'))
+r2 = r4 = r7 = float(input('Enter Resistance2'))
+r3 = r5 = float(input('Enter Resistance3'))
+r8 = float(input('Enter Resistance4'))
+r10 = float(input('Enter Resistance5'))
+r810 = ((r8+r10)*r9)/((r8+r10)+r9)
+r610 = ((r810+r7)*r6)/((r810+r7)+r6)
+r410 = ((r5+r610)*r4)/((r4+r610)+r4)
+r210 = ((r3+r410)*r2)/((r3+r410)+r2)
+req = r1 + r210
+print('The eq. resistance is', req)

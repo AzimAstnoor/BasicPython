@@ -1,0 +1,8 @@
+print('The area of Cube is %.1f'%(float(input('Enter side of cube:'))**3))
+print('The area of Cuboid is %.1f'%(float(input('Enter length:'))*float(input('Enter height:'))*float(input('Enter width:'))))
+print('The area of Sphere is %.1f'%(((float(input('Enter radius:'))**3)*3.14*4)/3))
+print('The area of Ellipsoid is %.1f'%((float(input('Enter radius1:'))*float(input('Enter radius2:'))*float(input('Enter radius3:'))*4)/3))
+print('The area of Cylinder is %.1f'%(3.14*(float(input('Enter radius:'))**2)*float(input('Enter Height:'))))
+print('The area of Cone is %.1f'%((3.14*(float(input('Enter radius:'))**2)*float(input('Enter Height:')))/3))
+print('The area of Pyramid is %.1f'%((float(input('Enter height:'))*float(input('Enter Base Area')))/3))
+print('The area of Torus is %.1f'%((float(input('Enter the Radius one:'))+float(input('Enter the Radius Two:')))*((float(input('Enter the Radius one:'))-float(input('Enter the Radius Two:')))**2)/4))
