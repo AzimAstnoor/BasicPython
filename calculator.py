@@ -1,16 +1,16 @@
-print('How many no. do you want to use: '
-      '2 '
-      '3 '
-      '4  ')
+print('How many no. do you want to use:\n'
+      '2 \n'
+      '3 \n'
+      '4 ')
 x = float(input('Enter the no. number you are using'))
 if x ==2:
-    print('which operator do you wanna use: '
-          '1. Addition '
-          '2. Subtraction '
-          '3. Multiplication '
-          '4. Division '
-          '5. Modulus '
-          '6. Power ')
+    print('which operator do you wanna use:\n'
+          '1. Addition\n'
+          '2. Subtraction\n'
+          '3. Multiplication\n'
+          '4. Division\n'
+          '5. Modulus\n'
+          '6. Power\n')
     e = float(input('Enter the No. beside the operator u want to use '))
     if e ==1:
         a = float(input('Enter number A'))
@@ -43,13 +43,13 @@ if x ==2:
         f = a ** b
         print(f)
 elif x ==3:
-    print('which operator do you wanna use: '
-          '1. Addition '
-          '2. Subtraction '
-          '3. Multiplication '
-          '4. Division '
-          '5. Modulus '
-          '6. Power ')
+    print('which operator do you wanna use:\n'
+          '1. Addition\n'
+          '2. Subtraction\n'
+          '3. Multiplication\n'
+          '4. Division\n'
+          '5. Modulus\n'
+          '6. Power\n')
     e = float(input('Enter the No. beside the operator u want to use '))
     if e ==1:
         a = float(input('Enter number A'))
@@ -88,13 +88,13 @@ elif x ==3:
         f = (a ** b) ** c
         print(f)
 elif x == 4:
-    print('which operator do you wanna use: '
-          '1. Addition '
-          '2. Subtraction '
-          '3. Multiplication '
-          '4. Division '
-          '5. Modulus '
-          '6. Power ')
+    print('which operator do you wanna use:\n'
+          '1. Addition\n'
+          '2. Subtraction\n'
+          '3. Multiplication\n'
+          '4. Division\n'
+          '5. Modulus\n'
+          '6. Power\n')
     e = float(input('Enter the No. beside the operator u want to use '))
     if e ==1:
         a = float(input('Enter number A'))
