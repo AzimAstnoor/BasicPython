@@ -20,3 +20,10 @@ print('The conversion of kilogram to gram', gram)
 print('The conversion of kilogram to tonnes', tonnes)
 print('The conversion of kilogram to picogram', picogram)
 print('The conversion of kilogram to stones', stones)
+c = float(input('Enter temperature to be converted:'))
+Fahrenheit = c * 33.8
+Rankine = c * 493.47
+Kelvin = c * 273
+print('The conversion of Celsius to Fahrenheit', Fahrenheit)
+print('The conversion of Celsius to Rankine', Rankine)
+print('The conversion of Celsius to Kelvin', Kelvin)
