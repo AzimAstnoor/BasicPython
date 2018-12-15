@@ -11,4 +11,4 @@ for n in range(a,b+1):
     j = n / 7
     if (m!=0 and k != 0 and u != 0 and i !=0 )\
         or g == 1 or j == 1 or c == 1 or d == 1 :
-        print(n,' is a Prime Number')
+        print(n,' is a Prime Number\n')
